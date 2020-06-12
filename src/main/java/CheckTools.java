@@ -96,7 +96,6 @@ public class CheckTools {
                 list2.add(s);
             }
         }
-//        Jsoup.connect(s).get();
         return list2;
     }
 
