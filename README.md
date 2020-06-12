@@ -23,8 +23,9 @@
     https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor
     
     сменить данные в src/main/java/MailUtil.java на Ваши
-    username = "*****@gmail.com";
-    (пароль приложения) password = "*****"; 
+    
+        username = "*****@gmail.com";
+       (пароль приложения) password = "*****"; 
 
 3. Запуск
 
