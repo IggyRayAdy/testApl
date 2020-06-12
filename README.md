@@ -4,8 +4,8 @@
 
 1 Установить mySQL
 
-$sudo apt update
-$sudo apt sudo apt install mysql-server
+    $sudo apt update
+    $sudo apt sudo apt install mysql-server
 
     Создать базу данных: 
     название базы - 'testApl';
@@ -21,7 +21,7 @@ $sudo apt sudo apt install mysql-server
 
     Нобходимо создать пароль приложения 
     https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor
-
+    
     сменить данные в src/main/java/MailUtil.java на Ваши
     username = "*****@gmail.com";
     (пароль приложения) password = "*****"; 
