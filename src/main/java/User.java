@@ -22,7 +22,6 @@ public class User {
     private Map<String, String> oldTable = new HashMap<>();
 
     @ElementCollection(fetch = FetchType.EAGER)
-//    @Column(name = "newTable", length = 1000000)
     @Column(length = 1000000)
     private Map<String, String> newTable = new HashMap<>();
 
@@ -77,7 +76,3 @@ public class User {
     }
 
 }
-
-
-
-
