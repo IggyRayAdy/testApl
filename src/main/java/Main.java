@@ -54,10 +54,8 @@ public class Main {
                             userRepo.updateUser(user);
                         }
                     }
-                    System.out.println("Нет корректного URL");
                     break;
                 }
-                System.out.println("Нет новых сообщений");
                 break;
             }
             Thread.currentThread().sleep(10000l);
